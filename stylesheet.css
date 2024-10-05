@@ -1,0 +1,108 @@
+*-----------------------------------REUSABLE FOR ALL-----------------------------------------*/
+
+*{
+  margin: 0;
+  font-family: "Moderustic", sans-serif;
+  font-weight: 350;
+  color: #9CC1D1;
+  background-color: #FFFCF9;
+}
+
+h1{
+  font-size: 60px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+h2{
+  font-family: "Playwrite AU QLD", sans-serif;
+  font-weight: 300;
+  font-size: 45px;
+  text-align: center;
+  color: #4e4d4d;
+  padding-bottom: 20px;
+}
+
+.spacing {
+  display: block;
+  margin: 0 auto;
+  width:85%;
+}
+
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  border-radius: 25px;
+  border: 5px solid #9cc1d1;
+  animation: border-change 4s infinite linear;
+  
+}
+
+@keyframes border-change {
+  25%{
+    border: 5px solid #D1E3EB;
+  }
+  50%{
+    border: 5px solid #E9F1F5;
+  }
+  75%{
+    border: 5px solid #D1E3EB;
+  }
+  100%{
+    border: 5px solid #9cc1d1;
+  }
+}
+
+.spacing .rainbow {
+  background-color: red;
+  animation: color-change 4s infinite linear;
+  display: block;
+  margin: 0 auto;
+  height: 350px;
+  width: 350px;
+  position: relative;
+}
+
+@keyframes color-change {
+  16.666666% {
+    background-color: orange;
+    border-radius: 25px;
+  }
+  33.3333% {
+    background-color: yellow;
+    border-radius: 50px;
+  }
+  49.99999999% {
+    background-color: limegreen;
+    border-radius: 75px;
+  }
+  66.666666% {
+    background-color: lightblue;
+    border-radius: 50px;
+  }
+  83.33333% {
+    background-color: #c991e6;
+    border-radius: 25px;
+  }
+  100% {
+    background-color: red;
+    border-radius: 0px;
+  }
+}
+
+.spacing .rainbow .rainbow-text {
+  font-family: sans-serif, Arial;
+  font-stretch: 50%;
+  font-size: 30px;
+  color: black;
+  font-weight: 200;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*----- was this animation inspired off the brat album cover? yes. do i listen to it? nope, guess im not bumping that...---*/
